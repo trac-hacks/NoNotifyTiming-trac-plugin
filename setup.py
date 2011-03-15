@@ -6,7 +6,7 @@ setup(
 		name=PACKAGE,
 		version='1.0',
 		packages=[PACKAGE],
-		url='http://trac-hacks.org/wiki/NoNotifyTiming',
+		url='http://trac-hacks.org/wiki/NoNotifyTimingPatch',
 		author='Doychin Atanasov',
 		long_description="""
 		Makes sure you won't receive emails with empty comments for a change.
