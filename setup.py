@@ -4,7 +4,7 @@ PACKAGE = 'nonotifytiming'
 
 setup(
 		name=PACKAGE,
-		version='1.0',
+		version='1.1',
 		packages=[PACKAGE],
 		url='http://trac-hacks.org/wiki/NoNotifyTimingPatch',
 		author='Doychin Atanasov',
