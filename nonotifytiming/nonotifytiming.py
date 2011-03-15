@@ -5,7 +5,7 @@ import re
 
 def changed_notify(self, ticket, newticket=True, modtime=None):
 
-	self.env.log.debug("-- New session for ticket %d" % ticket.id)
+	self.env.log.debug("-- New session for ticket %d" % int(ticket.id))
 	
 	if newticket:
 		self.env.log.debug("New ticet: notifying")
